@@ -2,7 +2,7 @@ module V1
   class ItemsController < ApplicationController
 
     def index
-      render json: Item.all.to_json
+      render json: Item.all
     end
 
   end
